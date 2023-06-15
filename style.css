@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@media screen and (max-width: 1024px){
+  html{
+    margin-right: 1%;
+    height: 100vh;
+  }
+ 
+  div.container{
+    width: max-content;
+    margin-left: 15%;
+  }
+  div.cont1{
+    width:50em;
+  }
+  div.cont2{
+    width: 60em;
+  }
+  div.cont2>h1{
+    margin-left: 3%;
+    font-size:8em;
+  }
+  div.cont2>h3{
+   margin: 0 0 4% 0;
+   width:100%;
+   padding:0 3% 0 2%;
+   font-size: small;
+}
+div.footer{
+  width: 65em;
+}
+}
+  
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(238, 238, 238);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2em;
+}
+
+.nameNav {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2em;
+}
+
+#navBar>ul>li {
+
+  display: inline-block;
+}
+
+#navBar>ul>li>a {
+  text-decoration: none;
+  padding: 1.5em;
+  color: rgb(70, 70, 70);
+}
+
+a.home {
+  font-weight: 800;
+}
+
+#navBar>ul>li>a:hover {
+  text-decoration: underline;
+  font-weight: 800;
+}
+
+/*finita    navbar*/
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 5em;
+  margin-top: 5em;
+}
+
+.cont1 {
+  display: flex;
+  width: 100%;
+  gap: 1%;
+
+  
+}
+.cont1>img{
+  width: 20%;
+  transform: skewY(8deg);
+  border-radius: 5%;
+  
+}
+.img1{ /*fade in*/
+  animation: fade 8s infinite;
+  animation-direction: reverse;
+}
+.img2{
+  animation: fade 9s infinite ;
+  animation-direction: reverse;
+}
+.img3{
+  animation:fade 10s infinite;
+  animation-direction: reverse;
+}
+@keyframes fade{
+0% {
+  opacity: 0;
+}
+33.33% {
+  opacity: 1;
+}
+100% {
+  opacity: 0;
+}
+}
+.img1{
+  margin-left: 8%;
+  
+
+}
+.cont2 {
+  display: flex;
+  align-items: flex-end ;
+}
+
+.cont1>h1,
+.cont2>h1 {
+  font-size: 10em;
+  font-family: 'Lato', sans-serif;
+}
+
+.cont2>h1 {
+  margin-left: 1em;
+}
+
+.cont2>h3 {
+  font-size: medium;
+  font-family: 'Lato', sans-serif;
+ margin:0 0 2em 2em;
+}
+/*footer*/
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  margin-top: 5%;
+}
+.footer-name{
+  font-family: 'Great Vibes', cursive;
+}
+.footer>p {
+  width: 33%;
+  font-size: 1em;
+  
+}
+p.social-link img{
+  width: 10%;
+}
+p.social-link img:hover{
+  font-weight: 800;
+  transform: scale(1.2);
+  transition: opacity 1s ease-in-out;
+  width: 10%;
+}
