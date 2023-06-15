@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @media screen and (max-width: 1024px){
-  html{
-    margin-right: 1%;
-    height: 100vh;
+  *{
+   width: max-content;
+   overflow: hidden;
+    
+   
+    
+    
   }
  
   div.container{
