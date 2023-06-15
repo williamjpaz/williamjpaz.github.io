@@ -1,14 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @media screen and (max-width: 1024px){
-  *{
-   width: max-content;
-   overflow: hidden;
-    
-   
-    
-    
-  }
  
   div.container{
     width: max-content;
