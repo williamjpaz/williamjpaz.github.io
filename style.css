@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @media screen and (max-width: 1024px){
  html{
-    animation: slideLeft 12s ease-in-out infinite alternate-reverse !important;
+    animation: slideLeft 3s ease-in-out reverse !important;
   }
   @keyframes slideRight {
     0% {
